@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Fortune Telling Quiz</title>
+<body>
+  <h1>Find Your Fortune</h1>
+
+  <div class="container">
+  <form id="fortune">
+    <div class="form-group">
+      <p>Select every item you own:</p>
+      <input type="checkbox" name="ownership" value="1">Car<br>
+      <input type="checkbox" name="ownership" value="2">House<br>
+      <input type="checkbox" name="ownership" value="3">Boat<br>
+      <input type="checkbox" name="ownership" value="4">Motorcycle<br>
+    </div>
+    <div class="form-group">
+      <p>Select every air line you've flown:
+      <input type="checkbox" name="airline" value="1">American<br>
+      <input type="checkbox" name="airline" value="2">Delta<br>
+      <input type="checkbox" name="airline" value="3">Alaska<br>
+      <input type="checkbox" name="airline" value="4">United<br>
+    </div>
+    <div class="form-group">
+      <p>Select every unlucky event that's happened to you:</p>
+      <input type="checkbox" name="unlucky" value="1">Walked under ladder<br>
+      <input type="checkbox" name="unlucky" value="2">Broken a mirror<br>
+      <input type="checkbox" name="unlucky" value="3">Encountered a Black cat<br>
+      <input type="checkbox" name="unlucky" value="4">Spilled the salt<br>
+    </div>
+    <div class="form-group">
+      <p>Select every lucky event that's happened to you:</p>
+      <input type="checkbox" name="lucky" value="1">Found a 4 leaf clover<br>
+      <input type="checkbox" name="lucky" value="2">Saw a rainbow<br>
+      <input type="checkbox" name="lucky" value="3">Saw a shooting star<br>
+      <input type="checkbox" name="lucky" value="4">Found a lucky penny<br>
+    </div>
+    <div class="form-group">
+      <p>Select all that apply:</p>
+      <input type="checkbox" name="apply" value="1">I have a pet cat<br>
+      <input type="checkbox" name="apply" value="2">I have a pet dog<br>
+      <input type="checkbox" name="apply" value="3">I have a pet fish<br>
+      <input type="checkbox" name="apply" value="4">I have a pet bird<br>
+    </div>
+    <button type="submit">Find your fortune</button>
+  </form>
+        <span id="fortune1"></span>
+
+        <span id="fortune2"></span>
+
+        <span id="fortune3"></span>
+
+        <span id="fortune4"></span>
+
+</div>
+</body>
+</html>
