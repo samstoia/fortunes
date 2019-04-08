@@ -2,7 +2,7 @@
 Foor loops and branching.  Gets user input to tell people's fortunes by looping through the responses and determining fortune based on those values.
 
 ## Setup/Installation Requirements
-using command line, clone github repo by typing: git clone https://github.com/samstoia/bananas
+using command line, clone github repo by typing: git clone https://github.com/samstoia/fortunes
 find the file on your computer
 open the desired html file in your browser.
 ## Known Bugs
